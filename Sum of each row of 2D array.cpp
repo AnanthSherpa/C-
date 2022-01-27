@@ -10,8 +10,8 @@ int main()
        for(int j=0;j<3;j++)
        {
         sum+=arr[i][j];
-        item[i]=sum;
-       }
+         }
+       item[i]=sum;
    cout<<"The sum of all the elements in row "<<i<<" is "<<item[i];
        sum=0;
        cout<<endl;
