@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int item[5];int max,maxt,min,mint,ind;
+    int item[5];int max,maxt;
     for(int i=1;i<=5;i++)
     {
         cout<<"enter your "<<i<<"th element"<<endl;
