@@ -6,13 +6,13 @@ int main()
  cin>>a;
  int arr[a-1];
   cout<<"enter your arrray"<<endl;
- for(int i=0;i<a;i++)
+ for(int i=1;i<=a;i++)
  { cin>>arr[i];
  }
  int aft;
- for(int i=0;i<a;i++)
+ for(int i=1;i<=a;i++)
  {
-     for(int j=0;j<a-1;j++)
+     for(int j=1;j<=a;j++)
      {
          if(arr[j]>arr[j+1])
          {
@@ -22,14 +22,14 @@ int main()
          }
      }
  }
-int median;
+int median,j=a/2;
 if(a%2==0)
 {
-    median=(arr[a/2]+arr[a/2+1])/2;
+    median=(arr[j]+arr[j+1])/2;
 }
 else
 {
-    median=arr[a/2+1];
+    median=arr[j+1];
 }
 cout<<"The median of the array is "<<median;
     return 0;
