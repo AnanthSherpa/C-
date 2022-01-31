@@ -34,10 +34,7 @@ int main()
          arr[j]=bef;
      }
  }
- }
- for(int i=0;i<a;i++)
- {
- cout<<arr[i]<<" ";}
-
+  cout<<arr[i]<<" ";}
+}
     return 0;
 }
